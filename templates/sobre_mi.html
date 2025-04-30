@@ -1,0 +1,39 @@
+{% extends 'base.html' %}
+
+{% block title %}Sobre Mí - Mi Portafolio{% endblock %}
+
+{% block content %}
+    <section class="about-intro">
+        <div class="profile-image">
+            <img src="static/images/profile.jpg" alt="Mi Foto Personal">
+        </div>
+        <h1>Sobre Mí</h1>
+        <p>Soy un estudiante entusiasta en el mundo del desarrollo web, actualmente inmerso en un bootcamp de Python en KeepCoding y en el programa Campus 42 Madrid de Telefónica. Mi pasión por la tecnología y la creación de soluciones innovadoras me impulsa a seguir aprendiendo y creciendo en este campo.</p>
+    </section>
+
+    <section class="skills">
+        <h2>Habilidades en Desarrollo </h2>
+        <p>Durante mi formación, he comenzado a desarrollar habilidades en:</p>
+        <ul class="skills-list">
+            <li><i class="fab fa-python"></i> Python</li>
+            <li><i class="fas fa-code-branch"></i> Flask</li>
+            <li><i class="fas fa-code"></i> C</li>
+            <li><i class="fab fa-html5"></i> HTML</li>
+            <li><i class="fab fa-css3-alt"></i> CSS</li>
+        </ul>
+    </section>
+
+    <section class="goals">
+        <h2>Mis Metas</h2>
+        <p>Mi objetivo es aplicar los conocimientos y habilidades que estoy adquiriendo para crear proyectos web significativos y seguir creciendo como desarrollador. Este portafolio es una muestra de mi progreso y de los proyectos en los que estoy trabajando.</p>
+    </section>
+
+    <section class="education-brief">
+        <h2>Formación Actual</h2>
+        <ul>
+            <li><strong>KeepCoding Bootcamp | Aprende a Programar desde Cero (Full Stack Jr.)</strong></li>
+            <li><strong>Campus 42 Madrid de Telefónica</strong></li>
+        </ul>
+        <p>Para más detalles sobre mi formación, puedes visitar la sección de <a href="/estudios">Estudios</a>.</p>
+    </section>
+{% endblock %}
